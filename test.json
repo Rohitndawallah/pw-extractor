@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "subjectId": {
+        "name": "..."
+      },
+      "accuracy": 75,
+      "marksObtained": 16,
+      "totalQuestions": 16,
+      "correctQuestions": 12,
+      "attemptedQuestions": 16,
+      "attempted": 1,
+      "totalQuiz": 9
+    }
+  ]
+}
