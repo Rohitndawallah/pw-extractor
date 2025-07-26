@@ -15,8 +15,14 @@ PW Extractor is a dashboard app for students of [Physics Wallah (PW)](https://ww
 
    ```
    python -m venv venv
+   ```
+
+   ```
    # On Windows:
    venv\Scripts\activate
+   ```
+
+   ```
    # On Mac/Linux:
    source venv/bin/activate
    ```
@@ -43,8 +49,8 @@ PW Extractor is a dashboard app for students of [Physics Wallah (PW)](https://ww
 
 ### How to get your PW session token
 
-1. Visit [https://www.pw.live/](https://www.pw.live/) and log in.
-2. Open the browser developer tools (usually F12), go to the Network tab, and refresh the page.
+1. Either visit https://www.pw.live/ and log in, or simply use a browser tab where you are already logged in to pw.live.
+2. Open the browser developer tools (usually F12 or right click > Inspect), go to the Network tab, and refresh the page.
 3. Filter by `token`, click the `verify-token` request, and look for the `Authorization` header in the request headers.
 4. Copy the value after `Bearer ` and paste it in the login form of this dashboard.
 
